@@ -14,7 +14,7 @@ Starting fine-tuning...
     
   
  
-      |Step|Training Loss
+      | Step | Training Loss |
     
   
   
