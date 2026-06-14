@@ -1,0 +1,134 @@
+Using device: cuda
+Dataset saved: 2480 words, 200 lines
+Token indices sequence length is longer than the specified maximum sequence length for this model (3230 > 1024). Running this sequence through the model will result in indexing errors
+Model: gpt2  |  Parameters: 124,439,808
+Training blocks: 25  (block size = 128 tokens)
+Starting fine-tuning...
+/usr/local/lib/python3.12/dist-packages/accelerate/accelerator.py:439: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.scaler = torch.cuda.amp.GradScaler(**kwargs)
+
+    
+      
+      
+      [35/35 00:04, Epoch 5/5]
+    
+    
+  
+ 
+      Step
+      Training Loss
+    
+  
+  
+    
+      10
+      3.403400
+    
+    
+      20
+      3.072900
+    
+    
+      30
+      2.295900
+    
+  
+
+Fine-tuning complete!
+  Training time : 4.3 seconds
+  Final loss    : 2.7334
+Model saved to './gpt2-finetuned'
+Loss: 3.4034 → 2.2959
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Fine-tuned model loaded and ready.
+
+Prompt: 'Artificial intelligence is'
+
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+── GREEDY DECODING ──────────────────────────────────────
+Artificial intelligence is transforming the way we live, work, and play.
+Machine learning models can now recognize faces, translate languages, and even write code.
+Deep learning models can now recognize faces in 3D.
+Deep learning models can now recognize faces in 2D.
+Deep learning models can now recognize faces in 3D.
+Deep learning models can now recognize faces in 4D.
+Deep learning models
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+
+── BEAM SEARCH (beams=5) ───────────────────────────────
+Artificial intelligence is transforming the way we live, work, and play.
+Machine learning models can now recognize faces, translate languages, read and write, even write code. They can also learn from images and video. And now, they can even create beautiful 3D models that can be used in real-world applications. These advances are transforming how we think about and interact with the world around us. AI systems can
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+
+── TOP-K SAMPLING (k=50, temp=0.8) ────────────────────
+Artificial intelligence is progressing at a fast rate. However, progress requires careful consideration of the small parts and labor involved.
+The goal of AI is to build machines with intelligence.
+The human brain is composed of about 4,000 neurons.
+Some of these neurons form part of the human brain and are responsible for motor and attention processing.
+The main tasks in these areas of the brain are working memory, executive
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+
+── TOP-P NUCLEUS SAMPLING (p=0.92, temp=0.9) ──────────
+Artificial intelligence is becoming more important. People have the tools and skills necessary to understand complex visual and audio environments.
+As people age, so too do their imaginations and skills.
+Artificial intelligence needs to be trained on complex images, music, and video.
+Today, more than 4.7 billion people use computers each year.
+The pace of technological change requires complex models that can be applied to everyday
+
+── COMBINED: TOP-K + TOP-P + TEMP (3 samples) ─────────
+
+[Sample 1] Artificial intelligence is transforming the way we live and work.
+At its core, AI programs can now do nearly anything from translating text into image or music to designing complex models of natural language processing networks. They even build neural network architectures that recognize faces in real-world situations on a large scale. These algorithms are especially important for solving deep learning problems such as video games' classification issues. In this sense machine vision systems
+
+[Sample 2] Artificial intelligence is rapidly transforming the way we live, work and play. It enables us to understand human behavior in ways far beyond our immediate field of expertise. AI research provides a vital ingredient for accelerating basic science like machine learning, which uses artificial neural networks that learn from data without any prior programming skills or knowledge needed to do so — all within an environment with minimal intervention by humans.
+The future lies not only at
+
+[Sample 3] Artificial intelligence is rapidly becoming more sophisticated and intelligent. Today's machines can recognize faces, write code, read text, create images—even generate music or video. But the majority of these advances are confined to a handful "deep learning" models that mimic human behavior in specific domains.
+The problems facing AI development aren't just limited by their ability for understanding complex languages like English; they're also changing how people think
+
+Perplexity — Base GPT-2      : 35.13
+Perplexity — Fine-tuned GPT-2: 9.86
+✅ Improvement: 71.9%
+
+Temperature Experiment | Prompt: 'Researchers in artificial intelligence'
+
+[Temperature = 0.3]
+Researchers in artificial intelligence have long been interested not only about the human brain but also how we learn.
+The field has grown exponentially over recent decades, with advances like Deep Learning and machine learning now enabling researchers to build models of complex environments from text or images. But many problems remain: How do humans perceive faces? What
+
+[Temperature = 0.7]
+Researchers in artificial intelligence are trying to understand the nature of language.
+Using a variety, including those from Chinese and Japanese languages—the latter being where many have been trained over decades—they're now looking at how human beings communicate using these two types (see "Building Blocks for Learning"). AI researchers need to be able
+
+[Temperature = 1.0]
+Researchers in artificial intelligence have been learning how to generate images with the right amount of accuracy. In particular, this approach uses a deep-learning model that draws on previously learned networks and learns from these connections using reinforcement mechanisms (such as prediction).
+These models tend toward finding more detailed associations between human behaviors and their environments –
+
+[Temperature = 1.3]
+Researchers in artificial intelligence, known for inventing new languages and algorithms. In this video we learn about their uses to train human tasks such as image recognition, translation, language learning—and other fields of development within the field…
+More videos from io9 show you how far AI has progressed since people started designing computers a
+
+
+Custom Prompt Generation
+=======================================================
+
+Prompt: 'Deep learning is'
+Deep learning is the study of how systems learn from data.
+Generative models predict what people want to see in a given environment, such as music or video games—and then translate those results into actionable behaviors that can be used by humans and AI researchers worldwide. Models also allow for natural language processing (ML), which uses structured information encoded using machine translation algorithms designed specifically on human-computer interfaces. ML enables
+
+Prompt: 'The future of AI in healthcare'
+The future of AI in healthcare is important."
+"One way that we can advance medicine requires more efficient, accurate and safe medical care. The promise remains clear: with the right tools, people will become better doctors through careful study and trial rather than relying on traditional models or machines. Our work provides a framework for exploring how to build next-generation health systems based around personalized patient needs and skills."
+
+Prompt: 'Neural networks can'
+Neural networks can now be used to train models.
+Natural language processing is transforming science and engineering into applications that span borders ranging from education and healthcare fields, economy design systems, medicine delivery services with social norms such as gender equity and human rights, energy efficiency, resilience, climate change, migration, transportability & connectivity. In recent years researchers have applied these techniques in AI development like deep learning (Deep Learning), machine
+
+=======================================================
+  Done! GPT-2 fine-tuning and generation complete.
+=======================================================
