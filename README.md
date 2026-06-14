@@ -31,8 +31,8 @@ text generation using multiple decoding strategies.
 | Training Loss (start) | 3.4056 |
 | Training Loss (end) | 2.3155 |
 | Base GPT-2 Perplexity | 35.13 |
-| Fine-tuned GPT-2 Perplexity | 10.26 |
-| Improvement | 70.8% ✅ |
+| Fine-tuned GPT-2 Perplexity | 9.86 |
+| Improvement | 71.9% ✅ |
 
 ## 🔮 Text Generation Strategies Implemented
 | Strategy | Description |
