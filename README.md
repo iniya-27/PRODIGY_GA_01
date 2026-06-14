@@ -1,8 +1,6 @@
 # PRODIGY_GA_01
 Fine-tuning GPT-2 for custom text generation
 
-# PRODIGY_GA_01 — Fine-Tuning GPT-2 for Text Generation
-
 ## 📌 Task
 Fine-tune GPT-2 to generate coherent and contextually relevant text based on a given prompt.
 
@@ -70,6 +68,3 @@ pip install -q transformers==4.38.2 datasets==2.19.0 accelerate==0.30.0 peft==0.
 - [HuggingFace — How to Generate Text](https://huggingface.co/blog/how-to-generate)
 - [GPT-2 Fine-Tuning Colab Notebook](https://colab.research.google.com/drive/15qBZx5y9rdaQSyWpsreMDnTiZ5IlN0zD)
 
-## 🏢 Internship
-**Organisation:** Prodigy InfoTech  
-**Task 1 :**  — Generative AI  
