@@ -59,7 +59,7 @@ language processing networks.
 2. Set Runtime to GPU — Runtime → Change runtime type → T4 GPU
 3. Run Cell 1 to install dependencies:
 ```
-pip install -q transformers==4.38.2 datasets==2.19.0 accelerate==0.30.0 peft==0.10.0 sentencepiece
+!pip install -q accelerate==0.30.0 peft==0.10.0
 ```
 4. Restart runtime after installation
 5. Run Cell 2 with the main code
