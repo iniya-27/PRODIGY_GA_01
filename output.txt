@@ -9,14 +9,12 @@ Starting fine-tuning...
 
     
       
-      
       [35/35 00:04, Epoch 5/5]
     
     
   
  
-      Step
-      Training Loss
+      |Step|Training Loss
     
   
   
