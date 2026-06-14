@@ -5,7 +5,7 @@ Fine-tuning GPT-2 for custom text generation
 Fine-tune GPT-2 to generate coherent and contextually relevant text based on a given prompt.
 
 ## 📋 Description
-This project is part of my AI/ML Internship at Prodigy InfoTech. I have fine-tuned OpenAI's GPT-2 
+This project is part of my Generative AI Internship at Prodigy InfoTech. I have fine-tuned OpenAI's GPT-2 
 transformer model on a custom dataset to generate domain-specific text that mimics the style and 
 structure of the training data. The project covers the complete pipeline from data preparation to 
 text generation using multiple decoding strategies.
