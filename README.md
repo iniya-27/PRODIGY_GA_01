@@ -72,4 +72,4 @@ pip install -q transformers==4.38.2 datasets==2.19.0 accelerate==0.30.0 peft==0.
 
 ## 🏢 Internship
 **Organisation:** Prodigy InfoTech  
-**Task:** 1 — Generative AI  
+**Task 1 :**  — Generative AI  
