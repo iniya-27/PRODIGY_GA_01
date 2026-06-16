@@ -21,8 +21,8 @@ text generation using multiple decoding strategies.
 | File | Description |
 |---|---|
 | `gpt2_finetune.py` | Complete Python code for fine-tuning and text generation |
-| `GPT2_Explanation.md` | Detailed explanation of all concepts used in this project |
-| `GPT2_Finetuning_TextGeneration.ipynb` | Jupyter notebook version — run directly in Google Colab |
+| `gpt2_explanation.md` | Detailed explanation of all concepts used in this project |
+| `output.txt` | Output |
 | `requirements.txt` | All required Python libraries with versions |
 
 ## 📊 Results
